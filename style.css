@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: white;
+    color: #ff758c;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.content-box {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.countries {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.country-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.country-card {
+    background: #135657;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(248, 249, 249, 0.1);
+    border-radius: 8px;
+}
+
+.form-container {
+    background: #1e1e1e;
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto; /* Increased margin for spacing */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+input, select {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff758c;
+    border-radius: 5px;
+    background: #121212;
+    color: white;
+}
+
+.submit-button {
+    background-color: #ff758c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Reduce size of Get More Information heading */
+.form-container h2 {
+    font-size: 20px;
+}
